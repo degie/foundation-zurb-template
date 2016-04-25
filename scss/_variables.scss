@@ -1,0 +1,40 @@
+//-- typo:start --//
+$brandon-bold: 'brandon_grotesquebold', helvetica, sans-serif; // 700
+$brandon-bold-italic: 'brandon_grotesquebold_italic', helvetica, sans-serif; // 700 italic
+$brandon-black: 'brandon_grotesqueblack', helvetica, sans-serif; // 900
+$brandon-black-italic: 'brandon_grotesqueblack_italic', helvetica, sans-serif; // 900 italic
+$brandon-light: 'brandon_grotesquelight', helvetica, sans-serif; // 300
+$brandon-light-italic: 'brandon_grotesquelight_italic', helvetica, sans-serif; // 300 italic
+$brandon-medium: 'brandon_grotesqueMdIt', helvetica, sans-serif; // 600
+$brandon-medium-italic: 'brandon_grotesquemedium_italic', helvetica, sans-serif; // 600 italic
+$brandon-regular: 'brandon_grotesqueregularRg', helvetica, sans-serif; // 500
+$brandon-regular-italic: 'brandon_grotesqueRgIt', helvetica, sans-serif; // 500 italic
+$brandon-thin: 'brandon_grotesquethin', helvetica, sans-serif; // 100
+$brandon-thin-italic: 'brandon_grotesquethin', helvetica, sans-serif; // 100 italic
+//-- typo:end --//
+//-- colors:start --//
+$white: #ffffff;
+$baseFontColor: #302c2c;
+$goldenFontColor: #c9a16e;
+$eventBackground: #f8f6f4;
+$inactiveColor: #cdcccc;
+$lightBorder: #ebe9e8;
+$successColor: #53af2f;
+$errorColor: #ba192a;
+$mediumGray: #524f4f;
+$lightGray: #7e7e7e;
+//-- colors:end --//
+
+//-- headers:start --//
+$global-font-family: $brandon-regular;
+$global-font-size: 16px;
+$h1: 2.2em;
+$h2: 1.8em;
+$h3: 1.4em;
+$h4: 1em;
+$h5: .8em;
+$h6: .6em;
+//-- headers:end --//
+//-- lists:start --//
+$list-style-type-color: $goldenFontColor;
+//-- lists:end --//

@@ -1,0 +1,21 @@
+{
+  "projectName": "KLEEK",
+  "projectUrl": "http://webpp.kleek.io",
+  "projectLogo": "https://webtest3.kleek.io/static/images/web/kleek.png",
+  "jsResources": [],
+  "viewportWidths": [
+    544,
+    768,
+    992,
+    1200
+  ],
+  "serverPort": 8080,
+  "snippetTemplate": "styleguide/template.html",
+  "sassVariables": ["scss/_variables.scss"],
+  "maxSassIterations": 2000,
+  "database": "styleguide/db",
+  "categories": "styleguide/db/categories.txt",
+  "uniques": "styleguide/db/uniques.txt",
+  "sassData": "styleguide/db/sassdata.txt",
+  "extension": ".txt"
+}

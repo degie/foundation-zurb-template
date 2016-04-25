@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Field input",
+    "code": "<label for=\"inputname\">Input name</label>\n<input type=\"text\" name=\"inputname\" value=\"-\" id=\"inputname\" class=\"btn-block\"></div>",
+    "description": "",
+    "inlineCss": "#snippet { \n  \n}",
+    "includeJs": "false",
+    "isEdited": false,
+    "isDeleted": false
+  }
+]

@@ -7,6 +7,14 @@ var rimraf   = require('rimraf');
 var sequence = require('run-sequence');
 var sherpa   = require('style-sherpa');
 
+var svgstore = require('gulp-svgstore');
+var svgmin = require('gulp-svgmin');
+var cheerio = require('gulp-cheerio');
+var path = require('path');
+
+var styleguide = require('devbridge-styleguide');
+
+
 // Check for --production flag
 var isProduction = !!(argv.production);
 
@@ -123,6 +131,25 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('dist/assets/css'));
 });
 
+// Compile Sass into CSS
+// In production, the CSS is compressed
+gulp.task('sass-styleguide', function() {
+  var minifycss = $.if(isProduction, $.minifyCss());
+
+  return gulp.src('scss/site.scss')
+    .pipe($.sourcemaps.init())
+    .pipe($.sass({
+      includePaths: PATHS.sass
+    })
+      .on('error', $.sass.logError))
+    .pipe($.autoprefixer({
+      browsers: COMPATIBILITY
+    }))
+    .pipe(minifycss)
+    .pipe($.if(!isProduction, $.sourcemaps.write()))
+    .pipe(gulp.dest('css'));
+});
+
 // Combine JavaScript into one file
 // In production, the file is minified
 gulp.task('javascript', function() {
@@ -159,9 +186,48 @@ gulp.task('build', function(done) {
 // Start a server with LiveReload to preview the site in
 gulp.task('server', ['build'], function() {
   browser.init({
-    server: 'dist', port: PORT
+    server: './', port: PORT
   });
 });
+
+
+
+gulp.task('svgstore', function () {
+  return gulp
+      .src('src/assets/img/*.svg')
+      .pipe(svgmin(function (file) {
+        var prefix = path.basename(file.relative, path.extname(file.relative));
+        return {
+          plugins: [{
+            cleanupIDs: {
+              prefix: prefix + '-',
+              minify: true
+            }
+          }]
+        }
+      }))
+      // nie działa cheerio
+      .pipe(cheerio({
+        run: function ($) {
+          $('<style>').remove();
+          $('[fill]').removeAttr('fill');
+          $('svg').attr('style',  'display:none');
+        },
+        parserOptions: { xmlMode: true }
+      }))
+      .pipe(svgstore({ inlineSvg: true }))
+      .pipe(gulp.dest('src/assets/img/dest'));
+});
+
+
+gulp.task('start-styleguide',['server','sass-styleguide'], function () {
+  styleguide.startServer();
+  gulp.watch(['scss/**/*.scss'], ['sass-styleguide', browser.reload]);
+  gulp.watch(['styleguide/*.html'], [browser.reload]);
+});
+
+
+
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default', ['build', 'server'], function() {

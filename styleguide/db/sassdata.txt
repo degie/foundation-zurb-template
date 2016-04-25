@@ -1,0 +1,159 @@
+[
+  {
+    "name": "theme",
+    "colors": {
+      "#ffffff": [
+        "$white"
+      ],
+      "#c9a16e": [
+        "$goldenFontColor"
+      ],
+      "#cdcccc": [
+        "$inactiveColor"
+      ],
+      "#53af2f": [
+        "$successColor"
+      ],
+      "#524f4f": [
+        "$mediumGray"
+      ],
+      "#302c2c": [
+        "$baseFontColor"
+      ],
+      "#ebe9e8": [
+        "$lightBorder"
+      ],
+      "#7e7e7e": [
+        "$lightGray"
+      ],
+      "#f8f6f4": [
+        "$eventBackground"
+      ],
+      "#ba192a": [
+        "$errorColor"
+      ]
+    },
+    "typography": [
+      {
+        "variable": "$brandon-bold",
+        "value": "'brandon_grotesquebold', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 700,
+            "italic": false
+          }
+        ]
+      },
+      {
+        "variable": "$brandon-bold-italic",
+        "value": "'brandon_grotesquebold_italic', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 700,
+            "italic": true
+          }
+        ]
+      },
+      {
+        "variable": "$brandon-black",
+        "value": "'brandon_grotesqueblack', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 900,
+            "italic": false
+          }
+        ]
+      },
+      {
+        "variable": "$brandon-black-italic",
+        "value": "'brandon_grotesqueblack_italic', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 900,
+            "italic": true
+          }
+        ]
+      },
+      {
+        "variable": "$brandon-light",
+        "value": "'brandon_grotesquelight', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 300,
+            "italic": false
+          }
+        ]
+      },
+      {
+        "variable": "$brandon-light-italic",
+        "value": "'brandon_grotesquelight_italic', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 300,
+            "italic": true
+          }
+        ]
+      },
+      {
+        "variable": "$brandon-medium",
+        "value": "'brandon_grotesqueMdIt', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 600,
+            "italic": false
+          }
+        ]
+      },
+      {
+        "variable": "$brandon-medium-italic",
+        "value": "'brandon_grotesquemedium_italic', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 600,
+            "italic": true
+          }
+        ]
+      },
+      {
+        "variable": "$brandon-regular",
+        "value": "'brandon_grotesqueregularRg', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 500,
+            "italic": false
+          }
+        ]
+      },
+      {
+        "variable": "$brandon-regular-italic",
+        "value": "'brandon_grotesqueRgIt', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 500,
+            "italic": true
+          }
+        ]
+      },
+      {
+        "variable": "$brandon-thin",
+        "value": "'brandon_grotesquethin', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 100,
+            "italic": false
+          }
+        ]
+      },
+      {
+        "variable": "$brandon-thin-italic",
+        "value": "'brandon_grotesquethin', helvetica, sans-serif",
+        "weights": [
+          {
+            "weight": 100,
+            "italic": true
+          }
+        ]
+      }
+    ]
+  }
+]

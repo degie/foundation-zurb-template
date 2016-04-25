@@ -1,0 +1,32 @@
+@import "variables";
+@import "classes";
+body {
+  font-family:$global-font-family;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family:$brandon-bold;
+}
+h1 {font-size:$h1;}
+h2 {font-size:$h2;}
+h3 {font-size:$h3;}
+h4 {font-size:$h4;}
+h5 {font-size:$h5;}
+h6 {font-size:$h6;}
+
+ul {
+  list-style-type: none;
+  li {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: -20px;
+      height: 8px;
+      width: 8px;
+      background-color: $list-style-type-color;
+      border-radius: 50%;
+      display: block;
+    }
+  }
+}
