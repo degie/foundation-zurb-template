@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8cbdfe4-376d-4b64-bec1-8f5e5da716ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/functions/_unit.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/functions/_value.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/img/plus-icon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/_classes.scss" afterPath="$PROJECT_DIR$/scss/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/site.css" afterPath="$PROJECT_DIR$/css/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_variables.scss" afterPath="$PROJECT_DIR$/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/site.scss" afterPath="$PROJECT_DIR$/scss/site.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/img/dest/img.svg" afterPath="$PROJECT_DIR$/src/assets/img/dest/img.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/config.txt" afterPath="$PROJECT_DIR$/styleguide/config.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/db/Form elements.txt" afterPath="$PROJECT_DIR$/styleguide/db/Form elements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleguide/db/sassdata.txt" afterPath="$PROJECT_DIR$/styleguide/db/sassdata.txt" />
-    </list>
+    <list default="true" id="b8cbdfe4-376d-4b64-bec1-8f5e5da716ba" name="Default" comment="" />
     <ignored path="svg-stripes.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -35,6 +21,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="186" column="43" selection-start-line="186" selection-start-column="43" selection-end-line="186" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_forms.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_forms.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sassdata.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sassdata.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styleguide/db/sassdata.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2265">
@@ -105,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_global.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower_components/foundation-sites/scss/_global.scss">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1174">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -120,16 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/site.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -528,12 +514,12 @@
       <workItem from="1461324905941" duration="817000" />
       <workItem from="1461326355442" duration="702000" />
       <workItem from="1461577051805" duration="9428000" />
-      <workItem from="1461749301813" duration="4926000" />
+      <workItem from="1461749301813" duration="5094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16999000" />
+    <option name="totallyTimeSpent" value="17167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="976" extended-state="6" />
@@ -576,16 +562,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -778,14 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="186" column="43" selection-start-line="186" selection-start-column="43" selection-end-line="186" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styleguide/config.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -974,6 +942,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2265">
           <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="186" column="43" selection-start-line="186" selection-start-column="43" selection-end-line="186" selection-end-column="43" />
           <folding />
         </state>
       </provider>
