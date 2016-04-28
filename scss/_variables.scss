@@ -1,3 +1,15 @@
+//-- global:start --//
+$text-direction: ltr;
+$global-margin: 1rem;
+$global-padding: 1rem;
+$global-margin: 1rem;
+$global-weight-normal: normal;
+$global-weight-bold: bold;
+$global-radius: 0;
+$global-text-direction: ltr;
+$rem-base: 16px;
+//-- global:end --//
+
 //-- typo:start --//
 $brandon-bold: 'brandon_grotesquebold', helvetica, sans-serif; // 700
 $brandon-bold-italic: 'brandon_grotesquebold_italic', helvetica, sans-serif; // 700 italic
@@ -12,17 +24,18 @@ $brandon-regular-italic: 'brandon_grotesqueRgIt', helvetica, sans-serif; // 500 
 $brandon-thin: 'brandon_grotesquethin', helvetica, sans-serif; // 100
 $brandon-thin-italic: 'brandon_grotesquethin', helvetica, sans-serif; // 100 italic
 //-- typo:end --//
+
 //-- colors:start --//
 $white: #ffffff;
-$baseFontColor: #302c2c;
-$goldenFontColor: #c9a16e;
-$eventBackground: #f8f6f4;
-$inactiveColor: #cdcccc;
-$lightBorder: #ebe9e8;
-$successColor: #53af2f;
-$errorColor: #ba192a;
-$mediumGray: #524f4f;
-$lightGray: #7e7e7e;
+$base-color: #302c2c;
+$primary-color: #c9a16e;
+$eventbg-color: #f8f6f4;
+$success-color: #53af2f;
+$error-color: #c13936;
+$border-color: #ebe9e8;
+$inactive-color: #cdcccc;
+$lightgray-color: #7e7e7e;
+$mediumgray-color: #524f4f;
 //-- colors:end --//
 
 //-- headers:start --//
@@ -35,6 +48,17 @@ $h4: 1em;
 $h5: .8em;
 $h6: .6em;
 //-- headers:end --//
+
 //-- lists:start --//
-$list-style-type-color: $goldenFontColor;
+$list-style-type-color: $primary-color;
 //-- lists:end --//
+
+//-- forms:start --//
+$input-border: 1px solid $border-color !default;
+$input-font-size: rem-calc(14) !default;
+$form-spacing: rem-calc(16);
+$form-label-color: $base-color !default;
+$form-label-font-size: rem-calc(10) !default;
+$form-label-font-weight: $global-weight-normal !default;
+$form-label-line-height: 1.8 !default;
+//-- forms:end --//

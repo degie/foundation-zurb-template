@@ -1,7 +1,16 @@
+// Functions
+@import "functions/unit";
+@import "functions/value";
+@import "functions/selector";
+
+// CSS
 @import "variables";
-@import "classes";
+@import "forms";
+@import "global";
+
 body {
-  font-family:$global-font-family;
+  font-family: $global-font-family;
+  color: $base-color;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family:$brandon-bold;
